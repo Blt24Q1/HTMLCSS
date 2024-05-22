@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "맑은 고딕", 돋움;
+    font-size: 0.75em;
+    color: #333;
+}
+
+.tbl-ex {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tbl-ex {
+    border: solid #333;
+}
+
+th, td {
+    border: solid #333;
+}
+
+.tbl-ex {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: #999;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+td {
+    border: dotted;
+}
+
+.tbl-ex, th, td {
+    border-left: 0;
+    border-right: 0;
+}
+
+th {
+    border-top: 2px;
+    border-bottom: 2px;
+}
+
+tr:hover {
+    background-color: #fc6;
+    cursor:pointer;
+}
